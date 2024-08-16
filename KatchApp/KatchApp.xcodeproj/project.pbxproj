@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		622657032C6AEACA004DB11F /* KatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622657022C6AEACA004DB11F /* KatchAppApp.swift */; };
+		622657052C6AEACA004DB11F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622657042C6AEACA004DB11F /* ContentView.swift */; };
+		622657072C6AEACA004DB11F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622657062C6AEACA004DB11F /* Item.swift */; };
+		622657092C6AEACC004DB11F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622657082C6AEACC004DB11F /* Assets.xcassets */; };
+		6226570D2C6AEACC004DB11F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6226570C2C6AEACC004DB11F /* Preview Assets.xcassets */; };
+		622D27652C6EA3C700FB6F4F /* TicketMasterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D27642C6EA3C700FB6F4F /* TicketMasterService.swift */; };
+		62E7C2612C6AF5BC00FD9A44 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7C2602C6AF5BC00FD9A44 /* HomePage.swift */; };
+		62E7C2632C6AF87500FD9A44 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7C2622C6AF87500FD9A44 /* LoginView.swift */; };
+		62E7C2652C6AF8D300FD9A44 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7C2642C6AF8D300FD9A44 /* EventListView.swift */; };
+		62E7C2672C6AF8FB00FD9A44 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7C2662C6AF8FB00FD9A44 /* GroupsView.swift */; };
+		62E7C2692C6AFA2200FD9A44 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7C2682C6AFA2200FD9A44 /* ProfileView.swift */; };
+		62E7C26C2C6B09B900FD9A44 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7C26B2C6B09B900FD9A44 /* UserManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		622656FF2C6AEACA004DB11F /* KatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		622657022C6AEACA004DB11F /* KatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatchAppApp.swift; sourceTree = "<group>"; };
+		622657042C6AEACA004DB11F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		622657062C6AEACA004DB11F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		622657082C6AEACC004DB11F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6226570A2C6AEACC004DB11F /* KatchApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KatchApp.entitlements; sourceTree = "<group>"; };
+		6226570C2C6AEACC004DB11F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		622D27642C6EA3C700FB6F4F /* TicketMasterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketMasterService.swift; sourceTree = "<group>"; };
+		62E7C2602C6AF5BC00FD9A44 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		62E7C2622C6AF87500FD9A44 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		62E7C2642C6AF8D300FD9A44 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		62E7C2662C6AF8FB00FD9A44 /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		62E7C2682C6AFA2200FD9A44 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		62E7C26B2C6B09B900FD9A44 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		622656FC2C6AEACA004DB11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		622656F62C6AEACA004DB11F = {
+			isa = PBXGroup;
+			children = (
+				622657012C6AEACA004DB11F /* KatchApp */,
+				622657002C6AEACA004DB11F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		622657002C6AEACA004DB11F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				622656FF2C6AEACA004DB11F /* KatchApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		622657012C6AEACA004DB11F /* KatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				622657022C6AEACA004DB11F /* KatchAppApp.swift */,
+				622657042C6AEACA004DB11F /* ContentView.swift */,
+				62E7C2602C6AF5BC00FD9A44 /* HomePage.swift */,
+				62E7C2622C6AF87500FD9A44 /* LoginView.swift */,
+				62E7C2642C6AF8D300FD9A44 /* EventListView.swift */,
+				622D27642C6EA3C700FB6F4F /* TicketMasterService.swift */,
+				62E7C26B2C6B09B900FD9A44 /* UserManager.swift */,
+				62E7C2662C6AF8FB00FD9A44 /* GroupsView.swift */,
+				62E7C2682C6AFA2200FD9A44 /* ProfileView.swift */,
+				622657062C6AEACA004DB11F /* Item.swift */,
+				622657082C6AEACC004DB11F /* Assets.xcassets */,
+				6226570A2C6AEACC004DB11F /* KatchApp.entitlements */,
+				6226570B2C6AEACC004DB11F /* Preview Content */,
+			);
+			path = KatchApp;
+			sourceTree = "<group>";
+		};
+		6226570B2C6AEACC004DB11F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6226570C2C6AEACC004DB11F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		622656FE2C6AEACA004DB11F /* KatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622657102C6AEACC004DB11F /* Build configuration list for PBXNativeTarget "KatchApp" */;
+			buildPhases = (
+				622656FB2C6AEACA004DB11F /* Sources */,
+				622656FC2C6AEACA004DB11F /* Frameworks */,
+				622656FD2C6AEACA004DB11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KatchApp;
+			productName = KatchApp;
+			productReference = 622656FF2C6AEACA004DB11F /* KatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		622656F72C6AEACA004DB11F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					622656FE2C6AEACA004DB11F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 622656FA2C6AEACA004DB11F /* Build configuration list for PBXProject "KatchApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 622656F62C6AEACA004DB11F;
+			productRefGroup = 622657002C6AEACA004DB11F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				622656FE2C6AEACA004DB11F /* KatchApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		622656FD2C6AEACA004DB11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6226570D2C6AEACC004DB11F /* Preview Assets.xcassets in Resources */,
+				622657092C6AEACC004DB11F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		622656FB2C6AEACA004DB11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E7C26C2C6B09B900FD9A44 /* UserManager.swift in Sources */,
+				62E7C2692C6AFA2200FD9A44 /* ProfileView.swift in Sources */,
+				622657052C6AEACA004DB11F /* ContentView.swift in Sources */,
+				62E7C2652C6AF8D300FD9A44 /* EventListView.swift in Sources */,
+				622657072C6AEACA004DB11F /* Item.swift in Sources */,
+				622657032C6AEACA004DB11F /* KatchAppApp.swift in Sources */,
+				62E7C2632C6AF87500FD9A44 /* LoginView.swift in Sources */,
+				62E7C2672C6AF8FB00FD9A44 /* GroupsView.swift in Sources */,
+				62E7C2612C6AF5BC00FD9A44 /* HomePage.swift in Sources */,
+				622D27652C6EA3C700FB6F4F /* TicketMasterService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6226570E2C6AEACC004DB11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6226570F2C6AEACC004DB11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		622657112C6AEACC004DB11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KatchApp/KatchApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KatchApp/Preview Content\"";
+				DEVELOPMENT_TEAM = BB262966C2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KatchApp.KatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		622657122C6AEACC004DB11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KatchApp/KatchApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KatchApp/Preview Content\"";
+				DEVELOPMENT_TEAM = BB262966C2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KatchApp.KatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		622656FA2C6AEACA004DB11F /* Build configuration list for PBXProject "KatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6226570E2C6AEACC004DB11F /* Debug */,
+				6226570F2C6AEACC004DB11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622657102C6AEACC004DB11F /* Build configuration list for PBXNativeTarget "KatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622657112C6AEACC004DB11F /* Debug */,
+				622657122C6AEACC004DB11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 622656F72C6AEACA004DB11F /* Project object */;
+}
